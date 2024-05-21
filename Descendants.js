@@ -18,30 +18,30 @@ function getDescendants(familyTree) {
 let theJonathans = {
     children: [
         {
-            name: 'Elias'
+            name: 'KEVIN'
         },
         {
-            name: 'Sarah',
+            name: 'JEREMIAH',
             children: [
                 {
-                    name: 'Max',
+                    name: 'HUMMELS',
                     children: [{
-                        name: 'Lily'
+                        name: 'ESTHER'
                     }]
                 },
                 {
-                    name: 'Zoe'
+                    name: 'KEMBOI'
                 },
                 {
-                    name: 'Theo'
+                    name: 'ESLEY'
                 }
             ]
         },
         {
-            name: 'Maria',
+            name: 'SIAKAM',
             children: [
                 {
-                    name: 'Daniel'
+                    name: 'CARLOS'
                 }
             ]
         },
@@ -52,4 +52,4 @@ let theJonathans = {
 };
 
 console.log(getDescendants(theJonathans));
-// Output: [ 'Elias', 'Sarah', 'Max', 'Lily', 'Zoe', 'Theo', 'Maria', 'Daniel', 'David' ]
+

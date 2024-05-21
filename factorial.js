@@ -5,5 +5,5 @@ function factorial(n) {
     return n * factorial(n - 1);
 }
 
-// Example usage:
+
 console.log(factorial(5)); // Output: 120
